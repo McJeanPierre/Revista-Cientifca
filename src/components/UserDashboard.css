@@ -1,0 +1,45 @@
+.user-dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.user-dashboard h2 {
+  margin-bottom: 1rem;
+}
+
+.user-dashboard form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.user-dashboard label {
+  font-weight: bold;
+}
+
+.user-dashboard input,
+.user-dashboard textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.user-dashboard textarea {
+  min-height: 200px;
+}
+
+.user-dashboard button {
+  padding: 0.5rem 1rem;
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.user-dashboard button:hover {
+  background-color: #004a94;
+}
+

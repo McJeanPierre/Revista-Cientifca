@@ -1,0 +1,92 @@
+/* Registro: Contenedor general */
+.register-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+/* Título */
+.register-page h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #C02424;
+  margin-bottom: 2rem;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* Formulario */
+.register-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px; /* Aumentamos el ancho para que el formulario no se vea demasiado estrecho */
+  gap: 1.5rem;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los campos de entrada */
+.register-form input {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Foco en los campos de entrada */
+.register-form input:focus {
+  border-color: #00bcd4; /* Resaltar con un color cian */
+  box-shadow: 0 0 10px rgba(0, 188, 212, 0.5);
+  outline: none; /* Quitar el borde por defecto */
+}
+
+/* Estilo para el botón de registro */
+.register-form button {
+  padding: 0.75rem;
+  background-color: #C02424;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  letter-spacing: 1px;
+}
+
+/* Efecto hover en el botón */
+.register-form button:hover {
+  background-color: #000000;
+  transform: translateY(-2px); /* Pequeño efecto de elevación */
+}
+
+/* Efecto al hacer clic en el botón */
+.register-form button:active {
+  transform: translateY(1px); /* Efecto al hacer clic */
+}
+
+/* Estilos responsive para pantallas más pequeñas */
+@media (max-width: 600px) {
+  .register-form {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  .register-page h2 {
+    font-size: 2rem;
+  }
+
+  .register-form input {
+    font-size: 0.95rem;
+  }
+
+  .register-form button {
+    font-size: 1rem;
+  }
+}

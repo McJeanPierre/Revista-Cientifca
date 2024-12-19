@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Usuario",
+      "email": "usuario@ejemplo.com",
+      "password": "password",
+      "role": "user"
+    },
+    {
+      "id": "2",
+      "name": "Revisor",
+      "email": "revisor@ejemplo.com",
+      "password": "password",
+      "role": "reviewer"
+    },
+    {
+      "id": "3",
+      "name": "Editor",
+      "email": "editor@ejemplo.com",
+      "password": "password",
+      "role": "editor"
+    },
+    {
+      "id": "9d94",
+      "name": "Luis",
+      "email": "correo1@gmail.com",
+      "password": "123456",
+      "role": "user"
+    }
+  ],
+  "journals": [
+    {
+      "id": "443e",
+      "title": "LAS TIC EN EL MUNDO",
+      "articleTitle": "LAS TICS EN UN MUNDO ACTUAL",
+      "author": "LUIS ALFONSO TORRES",
+      "category": "Tecnología",
+      "abstract": "Las tecnologías de la información y la comunicación (TIC) han tenido un impacto significativo en la sociedad y en el mundo, ya que han transformado la forma de comunicarse, educar, aprender y organizarse. Las TIC han permitido el surgimiento de nuevas industrias, como la tecnología financiera, la inteligencia artificial, las criptomonedas y la economía colaborativa",
+      "content": "Las tecnologías de la información y la comunicación (TIC) han tenido un impacto significativo en la sociedad y en el mundo, ya que han transformado la forma de comunicarse, educar, aprender y organizarse. Las TIC han permitido el surgimiento de nuevas industrias, como la tecnología financiera, la inteligencia artificial, las criptomonedas y la economía colaborativa. \nAlgunas de las características de las TIC son:\nInmaterialidad: la información es la materia prima de las TIC.\nInterconexión: las TIC pueden combinarse y ampliar sus conexiones.\nInteractividad: las TIC permiten la interacción entre el sujeto y la máquina.\nInstantaneidad: las TIC facilitan el acceso y el intercambio de información de forma rápida. \nAlgunos ejemplos de TIC son:\nTeléfono\nCelular\nImprenta\nCorreo\nComputadora\nNavegador de Internet\nConsola de videojuegos\nTableta\nDispositivos de audio y video \nEl internet es la TIC que ha tenido el mayor impacto en el desarrollo de las sociedades, ya que permite el acceso a la información desde cualquier parte del mundo. \nUna de las tendencias TIC más prometedoras para 2023 es el metaverso, un mundo virtual que podría cambiar la forma de trabajar, comprar y vivir.",
+      "keywords": "TIC",
+      "userId": "9d94",
+      "status": "published",
+      "createdAt": "2024-11-30T02:33:35.135Z",
+      "publicationDate": "2024-11-30T02:33:35.136Z"
+    },
+    {
+      "id": "7d1f",
+      "title": "ciencias ",
+      "articleTitle": "ciencias de la vida",
+      "author": "LUIS ALFONSO TORRES",
+      "category": "Ciencias Naturales",
+      "abstract": "ASDASKLDJASKLDJASKLDJASKLDJ",
+      "content": "ASLKDJASDKLJASKLDJASKLDJASKLDJASKLDJ",
+      "keywords": "Ciencias",
+      "userId": "1",
+      "status": "published",
+      "createdAt": "2024-11-30T04:00:57.557Z",
+      "publicationDate": "2024-11-30T04:00:57.557Z"
+    },
+    {
+      "id": "cf0e",
+      "title": "TI",
+      "articleTitle": "TI",
+      "author": "LUIS ALFONSO TORRES",
+      "category": "Tecnología",
+      "abstract": "SCSAD",
+      "content": "ASDAS",
+      "keywords": "TI",
+      "userId": "1",
+      "status": "published",
+      "createdAt": "2024-12-03T20:57:08.372Z",
+      "publicationDate": "2024-12-03T20:57:08.372Z"
+    }
+  ]
+}
